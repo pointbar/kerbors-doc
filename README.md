@@ -4,3 +4,4 @@
 — Quels métiers exercent-ils ? Ce sont des métiers respectables ? Ils sont désencartés ? Quel âge ont-ils en moyenne ?
 
 [xavier](http://google.com)
+![]()
