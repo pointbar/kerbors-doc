@@ -3,9 +3,12 @@ const displayImg = (id) => {
     img.src = `faceblind/${id}.jpg`
 }
 
-const init = () => {
-    setInterval(() => {
-        const id = Math.round(Math.random() * 75) + 1
-        displayImg(id)
-    }, 1000)
+const chooseImg = () => {
+    const id = Math.round(Math.random() * 75) + 1
+    displayImg(id)
 }
+
+document.addEventListener("DOMContentLoaded", event => {
+    const button = document.querySelector('button')
+    button.onclick = chooseImg
+})
